@@ -98,6 +98,10 @@ a{
     text-align: center;
 }
 
+.card-hard-rounded-2{
+    border-radius: 2em;
+    background-color: var(--primary-color);
+}
 /* flex */
 
 .row{
@@ -161,6 +165,18 @@ header{
     background-color: var(--primary-color);
 }
 
+/* testimonial-section */
+
+.testimonial-photo{
+    text-align: center;
+    
+}
+
+.testimonial-photo img{
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+}
 
 
 

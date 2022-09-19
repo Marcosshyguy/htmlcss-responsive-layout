@@ -16,6 +16,21 @@
         width: calc(100% / 3 * 2 - .5em);
     }
 
+    /* testimonials */
+
+    #testimonials .card{
+        display: flex;
+        align-items: center;
+        gap: 4em;
+    }
+
+    .testimonial-photo{
+        width: 20%;
+    }
+
+    .testimonial-description{
+        width: 78%;
+    }
 }
 
 /* desktop version */
@@ -67,5 +82,9 @@
         width:calc(100% / 2 - 1.5em)
     }
 
-    
+    /* testimonials */
+
+    #testimonials .card{
+        gap: 5em;
+    }
 }
