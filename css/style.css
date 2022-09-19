@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /* color */
+    --header-color:#0084FD;
+    --primary-color:#9792E4;
+    --secondary-color:#B5DDFF;
+    /* spacing */
+    --default-margin:1em;
+}
+
+/* typography */
+
+html{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 100%;
+}
+
+/* common */
+
+img{
+    width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin-bottom: 1em;
+}
+
+ul{
+    list-style: none;
+}
+
