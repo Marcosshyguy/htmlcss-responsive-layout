@@ -187,6 +187,16 @@ header{
 #benefits{
     background-color: var(--primary-color);
 }
+/* about-us section */
+#about-us .about-us-pic{
+    text-align: center;
+}
+
+.about-us-pic img{
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+}
 
 
 
