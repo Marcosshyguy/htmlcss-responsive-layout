@@ -37,10 +37,10 @@
 
     /* about-section */
 
-    #about .card:first-child{
+     .card-ex{
         display: flex;
         justify-content: space-between;
-
+        height: 100%;
     }
 
     .card-description{
