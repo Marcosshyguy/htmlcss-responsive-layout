@@ -92,6 +92,12 @@ a{
 
 }
 
+.card-hard-rounded{
+    background-color: white;
+    border-radius: 2em;
+    text-align: center;
+}
+
 /* flex */
 
 .row{
@@ -149,7 +155,11 @@ header{
     text-align: center;
 }
 
+/* planning-section */
 
+#planning{
+    background-color: var(--header-color);
+}
 
 
 
