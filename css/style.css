@@ -139,6 +139,11 @@ header{
 
 }
 
+#about .col:first-child img{
+    width: 30%;
+
+}
+
 
 
 

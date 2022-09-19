@@ -1,6 +1,19 @@
 /* tablet size  */
 @media screen and (min-width:768px) {
     
+    #about .row{
+        justify-content: space-between;
+        gap:1.5em;
+    }
+    
+    #about .col{
+        width: calc(100% / 3 - 1em);
+    }
+
+    #about .col:first-child{
+        width: calc(100% / 3 * 2 - .5em);
+    }
+
 }
 
 /* desktop size */
@@ -19,4 +32,8 @@
     .header-menu{
         display: block;
     }
+
+    /* about-section */
+
+    #about .col
 }
