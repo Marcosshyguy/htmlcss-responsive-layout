@@ -89,7 +89,11 @@ a{
 .card-soft-rounded{
     background-color: var(--primary-color);
     border-radius: 1em;
+}
 
+.card-soft-rounded-2{
+    background-color: white;
+    border-radius: 1em;
 }
 
 .card-hard-rounded{
@@ -173,10 +177,17 @@ header{
 }
 
 .testimonial-photo img{
-    width: 20vw;
-    height: 20vw;
+    width: 15vw;
+    height: 15vw;
     border-radius: 50%;
 }
+
+/* benefits-section */
+
+#benefits{
+    background-color: var(--primary-color);
+}
+
 
 
 
