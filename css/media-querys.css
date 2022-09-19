@@ -1,6 +1,8 @@
 /* tablet size  */
 @media screen and (min-width:768px) {
-    
+
+    /* about-section */
+
     #about .row{
         justify-content: space-between;
         gap:1.5em;
@@ -35,5 +37,19 @@
 
     /* about-section */
 
-    #about .col
+    #about .card:first-child{
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .card-description{
+        width: 60%;
+    }
+
+    .card-photo{
+        width:45%;
+        align-self: flex-end;
+    }
+
 }
