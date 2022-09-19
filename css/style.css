@@ -187,17 +187,33 @@ header{
 #benefits{
     background-color: var(--primary-color);
 }
+
 /* about-us section */
 #about-us .about-us-pic{
-    text-align: center;
-}
-
-.about-us-pic img{
     width: 15vw;
     height: 15vw;
     border-radius: 50%;
+
+    position: relative;
+    
+    /* debug */
+    border: 1px solid black;
+    background-image: url(../img/about.jpg);
+    background-size: contain;
 }
 
+#about-us .about-us-pic h2{
+    position: absolute;
+    top:0;
+    right: 0;
+
+}
+
+
+
+#about-us p{
+    line-height: 2rem;
+}
 /* last section */
 
 #last-section{
@@ -205,5 +221,17 @@ header{
     text-align: center;
 }
 
+/* footer */
 
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2em 2em;
+}
+
+footer a{
+    text-decoration: underline;
+    color: blue;
+}
 
