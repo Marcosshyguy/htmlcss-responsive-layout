@@ -10,7 +10,10 @@
     --primary-color:#9792E4;
     --secondary-color:#B5DDFF;
     /* spacing */
-    --default-margin:1em;
+    --default-margin-top:1em;
+    --default-margin-bottom:1em;
+    --default-margin-left:1em;
+    --default-margin-right:1em;
 }
 
 /* typography */
@@ -28,6 +31,10 @@ img{
 
 h1,h2,h3,h4,h5,h6{
     margin-bottom: 1em;
+}
+
+i{
+    margin-right: .5em;
 }
 
 ul{
@@ -57,11 +64,43 @@ a{
 }
 
 
-
 .main-container {
     width: 100%;
     margin: 0 auto;
     padding: 1em 2em;
+}
+
+.mgb{
+    margin-bottom: var(--default-margin-bottom);
+}
+
+.mgt{
+    margin-bottom: var(--default-margin-top);
+}
+
+.card{
+    padding: 1em 1em 1em 1em;
+}
+
+/* #about .main-container .card:first-child{
+    padding-bottom: 0;
+} */
+
+.card-soft-rounded{
+    background-color: var(--primary-color);
+    border-radius: 1em;
+
+}
+
+/* flex */
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col{
+    width: 100%;
 }
 
 /* header */
@@ -89,6 +128,19 @@ header{
 .header-menu ul li{
     margin-right: 1em;
 }
+
+
+/* main */
+/* about-section */
+
+#about{
+    width: 100%;
+    padding-top:7rem;
+
+}
+
+
+
 
 
 
