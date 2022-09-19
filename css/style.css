@@ -198,6 +198,12 @@ header{
     border-radius: 50%;
 }
 
+/* last section */
+
+#last-section{
+    background-color: var(--primary-color);
+    text-align: center;
+}
 
 
 
