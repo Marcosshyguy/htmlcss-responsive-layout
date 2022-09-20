@@ -4,7 +4,6 @@
     /* about-section */
 
     #about .row{
-        justify-content: space-between;
         gap:1.5em;
     }
     
