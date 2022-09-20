@@ -29,8 +29,8 @@ img{
     width: 100%;
 }
 
-h1,h2,h3,h4,h5,h6{
-    margin-bottom: 1em;
+h1,h2,h3,h4,h5,h6,p,a,i{
+    margin-bottom: var(--default-margin-bottom);
 }
 
 i{
@@ -219,6 +219,11 @@ header{
 #last-section{
     background-color: var(--primary-color);
     text-align: center;
+}
+
+#last-section h2{
+    font-size: 3rem;
+    color: #FDC15F;
 }
 
 /* footer */

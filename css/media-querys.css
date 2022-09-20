@@ -34,12 +34,12 @@
 
     /* benefits-section */
     #benefits .row{
-        justify-content: space-between;
+        /* justify-content: space-between; */
         gap: 1.5em;
     }
 
     #benefits .col{
-        width: calc(100% / 2 - 1.5em);
+        width: calc(100% / 2 - 1.5em / 2);
     }
 
     /* about-us section */
@@ -117,7 +117,7 @@
 
     /* benefit-section */
     #benefits .col{
-        width: calc(100% / 3 - 1.5em);
+        width: calc(100% / 3 - 1.5em * 2 / 3);
     }
     /* about-us section */
 
