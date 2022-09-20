@@ -254,7 +254,7 @@ header{
 }
 
 #planning h2{
-    font-size: 3rem;
+    font-size: 3rem; 
 }
 
 i[class="fa-solid fa-arrow-down"]{
@@ -265,16 +265,21 @@ i[class="fa-solid fa-arrow-down"]{
 
 /* testimonial-section */
 
-.testimonial-photo{
-    text-align: center;
-    
-}
-
 .testimonial-photo img{
     width: 15vw;
     height: 15vw;
     border-radius: 50%;
+    object-fit: cover;
 }
+
+.testimonial-description{
+    text-align: center;
+}
+
+.testimonial-description strong{
+    font-size: 1.5rem;
+}
+
 
 /* benefits-section */
 
