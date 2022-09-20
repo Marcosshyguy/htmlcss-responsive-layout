@@ -37,6 +37,10 @@ h1,h2,h3,h4,h5,h6,p,a{
     margin-bottom: var(--default-margin-bottom);
 }
 
+p{
+    line-height: 1.5em;
+}
+
 i{
     margin-right: .5em;
 }
@@ -53,9 +57,39 @@ a{
 
 /* color and bg */
 
+.bg-white{
+    background-color: white;
+}
+
+.bg-primary{
+    background-color: var(--primary-color);
+}
+
+.bg-secondary{
+    background-color: var(--secondary-color);
+}
+
 .bg-header{
     background-color: var(--header-color);
 }
+
+.cl-white{
+    color: white;
+}
+
+.cl-black{
+    color: black;
+}
+
+.cl-primary{
+    color: var(--primary-color);
+}
+
+.cl-secondary{
+    color: var(--secondary-color);
+}
+
+
 
 
 /* layout */
@@ -90,8 +124,8 @@ a{
     margin-bottom: var(--margin-2-bottom);
 }
 
-.lin-hei{
-    line-height: 1.5em;
+.txt-cen{
+    text-align: center;
 }
 
 /* buttons */
@@ -130,15 +164,9 @@ a{
 }
 
 .card-hard-rounded{
-    background-color: white;
     border-radius: 2em;
-    text-align: center;
 }
 
-.card-hard-rounded-2{
-    border-radius: 2em;
-    background-color: var(--primary-color);
-}
 /* flex */
 
 .row{
@@ -204,6 +232,7 @@ header{
 
 #about h3{
     color: var(--header-color);
+    font-size: 1.5rem;
 }
 
 #about i{
@@ -222,6 +251,16 @@ header{
 
 #planning{
     background-color: var(--primary-color);
+}
+
+#planning h2{
+    font-size: 3rem;
+}
+
+i[class="fa-solid fa-arrow-down"]{
+    padding: 1em;
+    background-color: var(--primary-color);
+    border-radius: 2em;
 }
 
 /* testimonial-section */
