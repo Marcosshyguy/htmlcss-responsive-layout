@@ -144,6 +144,14 @@ a{
     border-radius: 2em;
 }
 
+.about-us-button{
+    padding: .6em 1em;
+    background-color: var(--primary-color);
+    border-radius: 2em;
+    color: white;
+    display: inline-block;
+}
+
 /* card */
 .card{
     padding: 1em 1em 1em 1em;
@@ -289,25 +297,26 @@ i[class="fa-solid fa-arrow-down"]{
 
 /* about-us section */
 #about-us .about-us-pic{
-    width: 15vw;
-    height: 15vw;
-    border-radius: 50%;
-
     position: relative;
-    
-    /* debug */
-    border: 1px solid black;
-    background-image: url(../img/about.jpg);
-    background-size: contain;
+
+    width: 10em;
+    height: 10em;
+}
+
+#about-us .about-us-pic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 #about-us .about-us-pic h2{
     position: absolute;
-    top:0;
-    right: 0;
+    top:-1rem;
+    right:-1rem;
 
+    font-size: 8rem ;
 }
-
 
 
 #about-us p{
