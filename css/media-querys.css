@@ -64,11 +64,18 @@
 /* desktop version */
 
 @media screen and (min-width:992px) {
+    
+    
     .main-container{
         width: 80%;
     }
 
+
     /* header */
+
+    header .main-container{
+        width: 90%;
+    }
 
     .sandwich-menu{
         display: none;
