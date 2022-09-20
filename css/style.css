@@ -207,7 +207,7 @@ header{
 }
 
 #about i{
-    /* color: var(--header-color); */
+    color: var(--header-color);
     margin: 0 auto;
     margin-bottom: .5em;
 }
