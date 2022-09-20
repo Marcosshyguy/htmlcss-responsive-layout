@@ -274,8 +274,8 @@ i[class="fa-solid fa-arrow-down"]{
 /* testimonial-section */
 
 .testimonial-photo img{
-    width: 15vw;
-    height: 15vw;
+    width: 11vw;
+    height: 11vw;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -299,8 +299,8 @@ i[class="fa-solid fa-arrow-down"]{
 #about-us .about-us-pic{
     position: relative;
 
-    width: 10em;
-    height: 10em;
+    width: 11vw;
+    height: 11vw;
 }
 
 #about-us .about-us-pic img{
