@@ -152,6 +152,14 @@ a{
     display: inline-block;
 }
 
+.cta-button{
+    display: inline-block;
+    padding: 1em 2em;
+    color: var(--primary-color);
+    background-color: white;
+    border-radius: 2em;
+}
+
 /* card */
 .card{
     padding: 1em 1em 1em 1em;
@@ -174,6 +182,8 @@ a{
 .card-hard-rounded{
     border-radius: 2em;
 }
+
+
 
 /* flex */
 
@@ -322,16 +332,13 @@ i[class="fa-solid fa-arrow-down"]{
 #about-us p{
     line-height: 2rem;
 }
-/* cta section */
 
-#cta-section{
-    background-color: var(--primary-color);
-    text-align: center;
-}
+/* cta section */
 
 #cta-section h2{
     font-size: 3rem;
     color: #FDC15F;
+    margin-bottom: .5em;
 }
 
 /* footer */

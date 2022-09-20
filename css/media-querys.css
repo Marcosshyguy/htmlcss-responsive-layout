@@ -60,6 +60,17 @@
         width: 25%;
     }
 
+    /* cta section */
+    #cta-section .main-container{
+        width: 60%;
+    }
+
+    /* footer */
+
+    footer .main-container{
+        width: 60%;
+    }
+
 }
 
 /* desktop version */
@@ -130,15 +141,16 @@
     #benefits .col{
         width: calc(100% / 3 - 1.5em * 2 / 3);
     }
-    /* about-us section */
 
-    /* #about-us .row{
-        justify-content: space-between;
+    /* cta section */
+    #cta-section .main-container{
+        width: 50%;
     }
 
-    #about-us .col:first-child{
-        -webkit-;
-    } */
+    /* footer */
 
+    footer .main-container{
+        width: 50%;
+    }
 
 }
