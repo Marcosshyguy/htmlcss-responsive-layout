@@ -214,14 +214,14 @@ header{
 #about-us p{
     line-height: 2rem;
 }
-/* last section */
+/* cta section */
 
-#last-section{
+#cta-section{
     background-color: var(--primary-color);
     text-align: center;
 }
 
-#last-section h2{
+#cta-section h2{
     font-size: 3rem;
     color: #FDC15F;
 }
