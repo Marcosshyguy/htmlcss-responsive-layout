@@ -152,6 +152,15 @@ a{
     display: inline-block;
 }
 
+.benefits-button{
+    padding: .6em 1.5em;
+    display: inline-block; 
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 1.2em;
+    text-align: center;
+}
+
 .cta-button{
     display: inline-block;
     padding: 1em 2em;
@@ -170,12 +179,6 @@ a{
 } */
 
 .card-soft-rounded{
-    background-color: var(--secondary-color);
-    border-radius: 1em;
-}
-
-.card-soft-rounded-2{
-    background-color: white;
     border-radius: 1em;
 }
 
@@ -301,10 +304,9 @@ i[class="fa-solid fa-arrow-down"]{
 
 /* benefits-section */
 
-#benefits{
-    background-color: var(--primary-color);
+#benefits h2,h3{
+    color: var(--primary-color);
 }
-
 /* about-us section */
 #about-us .about-us-pic{
     position: relative;
